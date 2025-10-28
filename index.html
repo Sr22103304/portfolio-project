@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S.R. Arif Portfolio </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* keep font-family only (allowed small inline style) */
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="fixed w-full top-0 left-0 bg-white/80 backdrop-blur-md z-50 shadow-sm">
+    <div class="container mx-auto flex items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-3">
+        <div class="text-2xl text-blue-700 transform transition duration-300 hover:scale-105">
+          <!-- logo icon -->
+          <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z" fill="#2563EB"/>
+          </svg>
+        </div>
+        <h1 class="text-xl font-bold text-gray-900">S.R. Arif</h1>
+      </div>
+
+<nav class="hidden md:flex items-center gap-6">
+  <a href="#home" class="text-gray-700 hover:text-blue-700 transition transform hover:scale-105 cursor-pointer">Home</a>
+  <a href="#about" class="text-gray-700 hover:text-blue-700 transition transform hover:scale-105 cursor-pointer">About</a>
+  <a href="#skills" class="text-gray-700 hover:text-blue-700 transition transform hover:scale-105 cursor-pointer">Skills</a>
+  <a href="#projects" class="text-gray-700 hover:text-blue-700 transition transform hover:scale-105 cursor-pointer">Projects</a>
+  <a href="#contact" class="text-gray-700 hover:text-blue-700 transition transform hover:scale-105 cursor-pointer">Contact</a>
+  <a href="#" class="ml-2 bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold shadow hover:shadow-lg transform hover:-translate-y-0.5 transition cursor-pointer">Download CV</a>
+</nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="pt-28 pb-16 bg-gradient-to-br from-blue-50 to-white">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <!-- left: text (group for hover interactions) -->
+        <div class="group space-y-6">
+          <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight group-hover:text-blue-800 transition duration-500 transform-gpu">
+            Hi, I'm <span class="text-blue-700">S.R. Arif</span>
+          </h2>
+          <p class="text-gray-600 text-lg max-w-lg transition-transform duration-700 group-hover:-translate-y-2">
+            I build modern, responsive web applications and beautiful user interfaces using <span class="font-semibold text-blue-700">HTML, CSS, Tailwind</span> and <span class="font-semibold text-blue-700">ASP.NET Core</span>.
+          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <a href="#projects" class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-700 to-indigo-600 text-white px-5 py-3 rounded-full shadow-lg hover:scale-105 transform transition duration-300">
+              View Projects
+            </a>
+
+            <a href="#contact" class="inline-flex items-center gap-3 bg-white border border-gray-200 px-5 py-3 rounded-full shadow hover:shadow-md hover:-translate-y-1 transform transition duration-300">
+              <svg class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m0 0l4-4m-4 4l4 4" />
+              </svg>
+              Contact Me
+            </a>
+
+            <button class="ml-2 inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full hover:scale-105 transition duration-300">
+              <i class="fa-brands fa-apple"></i>
+              <span class="text-sm">Download</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- right: image with group hover mockup movement -->
+        <div class="flex justify-center md:justify-end">
+          <div class="group relative">
+            <!-- decorative floating card behind -->
+            <div class="absolute -inset-4 bg-gradient-to-r from-purple-200/60 to-blue-100/60 rounded-2xl blur-xl opacity-60 transform transition duration-600 group-hover:translate-y-[-8px]"></div>
+
+            <img src="images\arif.jpg" alt="S.R.Arif" class="relative w-72 h-72 rounded-full shadow-2xl border-4 border-white object-cover transform transition duration-700 group-hover:scale-105 group-hover:-translate-y-3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h3 class="text-3xl font-bold text-blue-800 mb-4 transform transition duration-500 hover:scale-105">About Me</h3>
+        <p class="text-gray-600 leading-relaxed text-lg">
+          I’m a Computer Science student at IUBAT who builds clean, scalable web apps. I focus on UI/UX, accessible markup, and performant frontends. I combine <span class="font-semibold text-blue-700">design sense</span> with practical engineering.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl text-center font-bold text-blue-800 mb-10">Skills</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 group">
+          <h4 class="text-xl font-semibold text-blue-700 mb-2">Frontend</h4>
+          <p class="text-gray-600 mb-4">HTML, CSS, Tailwind, Responsive design</p>
+          <div class="flex gap-2">
+            <span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">HTML</span>
+            <span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">CSS</span>
+            <span class="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">Tailwind</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 group">
+          <h4 class="text-xl font-semibold text-blue-700 mb-2">Backend</h4>
+          <p class="text-gray-600 mb-4">ASP.NET Core MVC, EF Core, SQL Server</p>
+          <div class="flex gap-2">
+            <span class="text-xs bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">C#</span>
+            <span class="text-xs bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">EF Core</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 group">
+          <h4 class="text-xl font-semibold text-blue-700 mb-2">Tools</h4>
+          <p class="text-gray-600 mb-4">Git, VS Code, Visual Studio, Figma</p>
+          <div class="flex gap-2">
+            <span class="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">Git</span>
+            <span class="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full transform transition duration-300 group-hover:scale-105">Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl text-center font-bold text-blue-800 mb-10">Projects</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- card 1 -->
+        <article class="group bg-white rounded-2xl shadow-lg p-6 overflow-hidden transform transition duration-500 hover:shadow-2xl hover:-translate-y-3">
+          <div class="h-40 bg-gradient-to-r from-blue-100 to-indigo-50 rounded-xl mb-4 flex items-center justify-center">
+            <svg class="w-12 h-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3"></path></svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-900 mb-2">Online Quiz Management</h4>
+          <p class="text-gray-600 text-sm mb-4">Full-stack application built with ASP.NET Core MVC and SQL Server for managing quizzes & results.</p>
+          <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">Date • Oct 2025</div>
+            <a href="#" class="text-blue-600 font-medium hover:underline transform transition duration-300 group-hover:translate-x-1">View →</a>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="group bg-white rounded-2xl shadow-lg p-6 overflow-hidden transform transition duration-500 hover:shadow-2xl hover:-translate-y-3">
+          <div class="h-40 bg-gradient-to-r from-purple-100 to-pink-50 rounded-xl mb-4 flex items-center justify-center">
+            <svg class="w-12 h-12 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h4l3 8 4-16 3 8h4"></path></svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-900 mb-2">Portfolio Website</h4>
+          <p class="text-gray-600 text-sm mb-4">Personal site designed with Tailwind CSS — responsive and professional layout for showcasing work.</p>
+          <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">Date • Sep 2025</div>
+            <a href="#" class="text-blue-600 font-medium hover:underline transform transition duration-300 group-hover:translate-x-1">View →</a>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="group bg-white rounded-2xl shadow-lg p-6 overflow-hidden transform transition duration-500 hover:shadow-2xl hover:-translate-y-3">
+          <div class="h-40 bg-gradient-to-r from-green-100 to-teal-50 rounded-xl mb-4 flex items-center justify-center">
+            <svg class="w-12 h-12 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c1.657 0 3 1.343 3 3 0 .798-.324 1.52-.85 2.05L12 16l-2.15-2.95A2.99 2.99 0 0 1 9 11c0-1.657 1.343-3 3-3z"></path></svg>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-900 mb-2">To-Do Web App</h4>
+          <p class="text-gray-600 text-sm mb-4">Task manager UI built with Tailwind. Clean UX, responsive, and ready for JS enhancement.</p>
+          <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">Date • Aug 2025</div>
+            <a href="#" class="text-blue-600 font-medium hover:underline transform transition duration-300 group-hover:translate-x-1">View →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="py-20  p-6  hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 group">
+    <div class="container mx-auto px-6 ">
+      <div class="rounded-3xl bg-gradient-to-r from-purple-50 to-indigo-50 p-1">
+        <div class="bg-white rounded-3xl p-8 text-center shadow-lg">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-2">Ready to start a project?</h3>
+          <p class="text-gray-600 mb-6">Let's build something great together — I can help with web apps, UI design, and backend systems.</p>
+          <div class="flex items-center justify-center gap-4">
+            <a href="#contact" class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white px-6 py-3 rounded-full shadow hover:scale-105 transform transition duration-300">Get in touch</a>
+            <a href="#" class="bg-white border border-gray-200 px-6 py-3 rounded-full text-gray-800 hover:-translate-y-1 transform transition duration-300">See resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-[100px] bg-gradient-to-br from-slate-50 to-slate-100">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-slate-800 mb-8">Get in Touch</h2>
+    <p class="text-slate-600 max-w-xl mx-auto mb-12">
+      Feel free to contact me for collaboration, project ideas, or just to say hi!
+    </p>
+
+    <div
+      class="max-w-lg mx-auto bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+      <form class="flex flex-col gap-5">
+        <div class="flex flex-col text-left">
+          <label class="text-slate-700 font-medium mb-2" for="name">Full Name</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            class="p-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition duration-200"
+            required>
+        </div>
+
+        <div class="flex flex-col text-left">
+          <label class="text-slate-700 font-medium mb-2" for="email">Email Address</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="you@example.com"
+            class="p-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition duration-200"
+            required>
+        </div>
+
+        <div class="flex flex-col text-left">
+          <label class="text-slate-700 font-medium mb-2" for="message">Message</label>
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="Write your message..."
+            class="p-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition duration-200 resize-none"
+            required></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-full shadow-md hover:shadow-xl hover:scale-[1.02] active:scale-95 transition-all duration-300">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-white border-t">
+    <div class="container mx-auto px-6 text-center text-sm text-gray-500">
+      © 2025 S.R. Arif — All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
