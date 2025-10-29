@@ -67,6 +67,8 @@ Perfect for beginners learning web design and frontend development.
 
 5.Save the file after changes
 
+
+
                          🧩 4. Host It Online (GitHub Pages)
 
 1.Upload the project folder to your GitHub repo
@@ -75,6 +77,8 @@ Perfect for beginners learning web design and frontend development.
 
 3.Your website will be live instantly 🌍
 
+                              
+                              
                               🧠 Technologies
                               
                     Type:	                      Tools:
@@ -84,20 +88,26 @@ Perfect for beginners learning web design and frontend development.
                    Editor	                   Visual Studio Code
                   Hosting	                     GitHub Pages
                   
+                                
+                                 
                                  👨‍💻 Author
 
 S.R. Arif
 🎓 CSE Student – IUBAT
 💼 Passionate about Web Design & Development
-📧 Email: sr22103304@gmail.com
+📧 Email: srarif5700@gmail.com
 
 ⭐ GitHub: @Sr22103304
 
+                                
+                                
                                 📜 License
 
 Free and open-source under the MIT License.
 You can edit and use this template for your own portfolio — just give credit 😊
 
+                              
+                               
                                ⭐ Support
 
 
